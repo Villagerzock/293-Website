@@ -1,5 +1,5 @@
 function sendMail(name, subject, message){
-    window.location.href = `mailto:marvin.sieber@edu.gbssg.ch?subject=Message From: ${name} with Subject: ${subject}&body=${message}`
+    window.open(`mailto:marvin.sieber@edu.gbssg.ch?subject=Message From: ${name} with Subject: ${subject}&body=${message}`)
 }
 
 const name = document.getElementById("name");
