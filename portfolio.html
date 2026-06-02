@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Portfolio | Marvin Portfolio</title>
+	<meta name="description" content="Persönliche Portfolio-Website mit Über mich, Fähigkeiten, Portfolio und Kontakt.">
+	<link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+	<a class="skip-link" href="#main">Zum Inhalt springen</a>
+	<header class="site-header">
+		<div class="nav">
+			
+<a class="logo" href="index.html">Marvin Portfolio</a>
+<button class="nav__toggle" type="button">Menü</button>
+<nav class="nav__links" aria-label="Hauptnavigation">
+	<a href="index.html" >Über mich</a>
+	<a href="skills.html" >Fähigkeiten</a>
+	<a href="portfolio.html" aria-current="page">Portfolio</a>
+	<a href="contact.html" >Kontakt</a>
+</nav>
+
+		</div>
+	</header>
+
+	<main id="main">
+
+		<section class="section">
+			<div class="container">
+				<div class="section-head">
+					<p class="eyebrow">Portfolio</p>
+					<h1>Ausgewählte Arbeiten</h1>
+					<p>
+						Diese Galerie zeigt beispielhafte Projekte und Arbeitsproben. Die Karten sind so aufgebaut,
+						dass Besucher schnell Thema, Ziel und eingesetzte Technologien erkennen.
+					</p>
+				</div>
+
+				<div class="grid grid--3">
+					<article class="project-card">
+						<img src="assets/images/project-website.svg" alt="Vorschau einer Portfolio Website">
+						<div class="project-card__body">
+							<h2>Personal Website</h2>
+							<p>Eine responsive Portfolio-Seite mit klarer Struktur, Navigation und modernem Design.</p>
+							<div class="tags"><span class="tag">HTML</span><span class="tag">CSS</span><span class="tag">Responsive</span></div>
+						</div>
+					</article>
+
+					<article class="project-card">
+						<img src="assets/images/project-ui.svg" alt="UI-Konzept mit mehreren Karten">
+						<div class="project-card__body">
+							<h2>UI-Konzept</h2>
+							<p>Konzept mit Wireframes, Mockups, Farbpalette und Typografie für ein Webprojekt.</p>
+							<div class="tags"><span class="tag">Figma</span><span class="tag">UX</span><span class="tag">Design</span></div>
+						</div>
+					</article>
+
+					<article class="project-card">
+						<img src="assets/images/project-media.svg" alt="Grafische Medienvorschau">
+						<div class="project-card__body">
+							<h2>Medienbereich</h2>
+							<p>Beispielhafte Einbindung von Bildern und Video-Platzhalter für Multimedia-Inhalte.</p>
+							<div class="tags"><span class="tag">Media</span><span class="tag">Layout</span><span class="tag">Performance</span></div>
+						</div>
+					</article>
+				</div>
+			</div>
+		</section>
+
+		<section class="section">
+			<div class="container">
+				<div class="media-card">
+					<div class="video-placeholder" role="img" aria-label="Video Platzhalter">
+						<video src="video.mp4" autoplay muted controls>
+
+						</video>
+					</div>
+				</div>
+			</div>
+		</section>
+
+	</main>
+
+	<footer class="footer">
+		<div class="footer__inner">
+			<p>© 2026 Marvin Sieber</p>
+			<p>HTML & CSS · responsive · GitHub Pages ready</p>
+		</div>
+	</footer>
+</body>
+</html>

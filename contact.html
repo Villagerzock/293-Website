@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Kontakt | Marvin Portfolio</title>
+	<meta name="description" content="Persönliche Portfolio-Website mit Über mich, Fähigkeiten, Portfolio und Kontakt.">
+	<link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+	<a class="skip-link" href="#main">Zum Inhalt springen</a>
+	<header class="site-header">
+		<div class="nav">
+			
+<a class="logo" href="index.html">Marvin Portfolio</a>
+<button class="nav__toggle" type="button">Menü</button>
+<nav class="nav__links" aria-label="Hauptnavigation">
+	<a href="index.html" >Über mich</a>
+	<a href="skills.html" >Fähigkeiten</a>
+	<a href="portfolio.html" >Portfolio</a>
+	<a href="contact.html" aria-current="page">Kontakt</a>
+</nav>
+
+		</div>
+	</header>
+
+	<main id="main">
+
+		<section class="section">
+			<div class="container">
+				<div class="section-head">
+					<p class="eyebrow">Kontakt</p>
+					<h1>Kontakt aufnehmen</h1>
+					<p>
+						Über das Formular oder die angegebenen Kontaktinformationen können Interessierte
+						schnell eine Nachricht senden.
+					</p>
+				</div>
+
+				<div class="contact-layout">
+					<aside class="contact-card">
+						<h2>Kontaktinformationen</h2>
+						<p><strong>E-Mail:</strong> marvin@example.com</p>
+						<p><strong>GitHub:</strong> github.com/marvin</p>
+						<p><strong>LinkedIn:</strong> linkedin.com/in/marvin</p>
+						<p>
+							Die Daten sind Platzhalter und können vor der finalen Abgabe angepasst werden.
+						</p>
+					</aside>
+
+					<form class="contact-card form" action="#" method="post">
+						<div>
+							<label for="name">Name</label>
+							<input class="input" id="name" name="name" type="text" placeholder="Dein Name" required>
+						</div>
+						<div>
+							<label for="email">E-Mail</label>
+							<input class="input" id="email" name="email" type="email" placeholder="name@example.com" required>
+						</div>
+						<div>
+							<label for="message">Nachricht</label>
+							<textarea class="input" id="message" name="message" placeholder="Deine Nachricht" required></textarea>
+						</div>
+						<button class="button button--primary" type="submit">Nachricht senden</button>
+					</form>
+				</div>
+			</div>
+		</section>
+
+	</main>
+
+	<footer class="footer">
+		<div class="footer__inner">
+			<p>© 2026 Marvin Sieber</p>
+			<p>HTML & CSS · responsive · GitHub Pages ready</p>
+		</div>
+	</footer>
+</body>
+</html>
