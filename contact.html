@@ -54,14 +54,15 @@
 							<input class="input" id="name" name="name" type="text" placeholder="Dein Name" required>
 						</div>
 						<div>
-							<label for="email">E-Mail</label>
-							<input class="input" id="email" name="email" type="email" placeholder="name@example.com" required>
+							<label for="subject">Betreff</label>
+							<input class="input" id="subject" name="subject" type="text" placeholder="Das ist ein Betreff" required>
 						</div>
 						<div>
 							<label for="message">Nachricht</label>
 							<textarea class="input" id="message" name="message" placeholder="Deine Nachricht" required></textarea>
 						</div>
-						<button class="button button--primary" type="submit">Nachricht senden</button>
+						<button class="button button--primary" type="submit" id="send-message">Nachricht senden</button>
+						<script src="send_message.js"/>
 					</form>
 				</div>
 			</div>
